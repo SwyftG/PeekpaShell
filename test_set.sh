@@ -16,15 +16,9 @@ echo "############################ ENJOY ############################"
 
 echo ">>>>>>>>>>>>>>>> Script Start >>>>>>>>>>>>>>>>"
 
-pip3 install --upgrade pip
+config_file = `find / -name "default_scrapyd.conf"`
 
-pip3 install scrapyd
-
-pip3 install scrapy
-
-pip3 install scrapyd-client
-
-
+vi config_file
 
 
 
