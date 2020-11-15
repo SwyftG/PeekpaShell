@@ -16,9 +16,9 @@ echo "############################ ENJOY ############################"
 
 echo ">>>>>>>>>>>>>>>> Script Start >>>>>>>>>>>>>>>>"
 
-config_file = `find / -name "default_scrapyd.conf"`
+config_file=`find / -name "default_scrapyd.conf"`
 
-vi config_file
+vi $config_file
 
 
 
