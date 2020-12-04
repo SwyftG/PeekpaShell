@@ -4,9 +4,9 @@ startTime_s=`date +%s`
 
 echo "#################### Welcome to Peekpa.com ####################"
 echo "##########                                           ##########"
-echo "##########            /install_scrapy.sh/            ##########"
+echo "##########            /config_scrapyd.sh/            ##########"
 echo "##########                                           ##########"
-echo "##########     This script is to install Scrapy      ##########"
+echo "##########     This script is to config scrapyd      ##########"
 echo "##########            on CentOS 7.7 64bit            ##########"
 echo "##########                                           ##########"
 echo "##########                Written By                 ##########"
@@ -16,18 +16,9 @@ echo "############################ ENJOY ############################"
 
 echo ">>>>>>>>>>>>>>>> Script Start >>>>>>>>>>>>>>>>"
 
-pip3 install --upgrade pip
+config_file=`find / -name "default_scrapyd.conf"`
 
-pip3 install scrapyd
-
-pip3 install scrapy
-
-pip3 install scrapyd-client
-
-
-
-
-
+vi $config_file
 
 echo ">>>>>>>>>>>>>>>> Script Done >>>>>>>>>>>>>>>>>"
 
