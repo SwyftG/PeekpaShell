@@ -16,15 +16,6 @@ echo "############################ ENJOY ############################"
 
 echo ">>>>>>>>>>>>>>>> Script Start >>>>>>>>>>>>>>>>"
 
-pip3 install --upgrade pip
-
-pip3 install scrapyd
-
-pip3 install scrapy
-
-pip3 install scrapyd-client
-
-
 
 
 
